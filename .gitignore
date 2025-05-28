@@ -1,0 +1,57 @@
+# Dotnet build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# ASP.NET Core secrets
+secrets.json
+
+# IIS Express
+.vs/
+*.vspscc
+
+# Entity Framework Migrations snapshots
+Migrations/
+
+# Database files (optional, depending on local db usage)
+*.mdf
+*.ldf
+
+# Docker related
+**/docker-compose.override.yml
+**/docker-compose.*
+
+# Logs
+*.log
+logs/
+
+# Config transformations
+appsettings.*.json
+
+# Node modules (if using frontend)
+node_modules/
+
+# npm/yarn lock files
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider IDE
+.idea/
+
+# JetBrains Rider specific
+.idea/
+*.sln.iml
